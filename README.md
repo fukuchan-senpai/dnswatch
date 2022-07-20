@@ -24,7 +24,7 @@ GAS の環境変数 で WEBHOOK_URL を作成し、Google Chat の WEBHOOK URL �
 
 GAS のトリガーで1時間ごとに myFunction を実行します。  
 
-https://user-images.githubusercontent.com/12945672/179905688-589325a0-50c2-493f-ac9f-f116b80bf9f5.png
+https://user-images.githubusercontent.com/12945672/179905910-1c7acf21-8f3d-45da-b8d5-41438d47eb87.png
 
 ## バージョン情報
 
