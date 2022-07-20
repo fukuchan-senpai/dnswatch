@@ -4,9 +4,11 @@ DNSのレコードを監視し、更新されていたら Google Chat へ通知�
 
 Aレコード、TXTレコード、MXレコードなどに対応しています。  
 
-テストはしていませんが NS レコードや CNAME なども対応できるはずです。 
+NS レコードや CNAME なども対応できるはずです。 
 
 GAS とは Google Apps Script の略です。  
+
+![gas_chat](https://user-images.githubusercontent.com/12945672/179905910-1c7acf21-8f3d-45da-b8d5-41438d47eb87.png)
 
 ## 使い方
 
@@ -23,8 +25,6 @@ const type の値を DNS 問い合わせしたいレコードタイプに変更�
 GAS の環境変数 で WEBHOOK_URL を作成し、Google Chat の WEBHOOK URL を値に貼り付けます。  
 
 GAS のトリガーで1時間ごとに myFunction を実行します。  
-
-![gas_chat](https://user-images.githubusercontent.com/12945672/179905910-1c7acf21-8f3d-45da-b8d5-41438d47eb87.png)
 
 ## バージョン情報
 
